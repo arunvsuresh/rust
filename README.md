@@ -1,2 +1,2 @@
-# project_of_the_week_rust
-Learning Rust
+# Project of the Week: Rust
+Learning Rust Fundamentals
