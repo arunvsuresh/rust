@@ -5,7 +5,7 @@ Week 1:
 
 Compiling and Running Rust (done in separate steps)
 * Compile first:
-    * rustc filename.rs
+    * _rustc filename.rs_
     * Shows executable file <filename> and source file filename.rs
 * Then run:
     * ./filename
@@ -15,7 +15,7 @@ Package Management in Rust
 *  Cargo
     * Tool used to manage Rust projects
     * Handles building code, downloading libraries code depends on, building said libraries
-    * cargo new project_name
+    * _cargo new project_name_
         * Creates new dir and project and files inside dir
     * Anatomy of cargo project
         * Cargo.toml
@@ -40,14 +40,18 @@ Package Management in Rust
         * dependecies
             * List any project dependencies 
     * Building and running cargo project
-        * Cargo build
+        * _Cargo build_
             * Creates executable file in target/debug/project_name
             * Cargo puts binary in debug dir by default 
-        * Cargo run
+        * _Cargo run_
             * Builds and runs executable in one step 
-        * Cargo check
+        * _Cargo check_
             * Check if code compiles without producing an executable
     * Building software for release
-        * Cargo build —release
+        * _Cargo build —release_
             * Creates executable in target/release instead of target/debug
             * Meant for when program is ready to be widely used/adopted to users
+
+Formatting Code
+   * _Rustfmt filename.rs_
+      * Formats code with proper indentation/spacing/etc...
