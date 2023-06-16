@@ -1,7 +1,7 @@
 # Project of the Week: Rust
 Learning Rust Fundamentals
 
-Week 1:
+## Week 1
 
 Compiling and Running Rust (done in separate steps)
 * Compile first:
@@ -55,3 +55,8 @@ Package Management in Rust
 Formatting Code
    * _Rustfmt filename.rs_
       * Formats code with proper indentation/spacing/etc...
+    
+## Week 2
+
+Variables and Mutability
+ * 
