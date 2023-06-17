@@ -1,7 +1,7 @@
 # Project of the Week: Rust
 Learning Rust Fundamentals
 
-## Week 1
+## Day 1
 
 Compiling and Running Rust (done in separate steps)
 * Compile first:
@@ -56,7 +56,24 @@ Formatting Code
    * _Rustfmt filename.rs_
       * Formats code with proper indentation/spacing/etc...
     
-## Week 2
+## Day 2 (see day 2 folder for code)
 
-Variables and Mutability
- * 
+Overarching concepts
+* Variables & Mutability
+    * Vars are immutable by default - once defined, cannot be changed unless explicitly stated 
+    * Vars can be mutable with the mut keyword
+        * e.g. let mut x = 4;
+* Constants
+    * Values that aren’t allowed to change 
+* Shadowing
+    * Can declare a new variable with same name as another previously declared variable
+* Data Types
+    * Scalar Types
+        * Represents single value
+        * Integers
+        * Floating-point 
+        * Bool
+        * Char
+    * Compound Types
+        * tuple
+        * arrays
